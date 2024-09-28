@@ -1,0 +1,22 @@
+// See https://containers.dev/implementors/json_reference/ for configuration reference
+{
+	"name": "Vite Boilerplate",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+"remoteUser": "node",
+"customizations": {
+	"vscode": {
+		"extensions": [
+			"GitHub.copilot",
+			"GitHub.copilot-chat",
+			"deque-systems.vscode-axe-linter",
+			"dbaeumer.vscode-eslint",
+			"GitHub.vscode-pull-request-github",
+			"bierner.lit-html",
+			"runem.lit-plugin",
+			"esbenp.prettier-vscode"
+		]
+	}
+}
+}
